@@ -1,0 +1,11 @@
+Demo/
+Resources/
+node_modules/
+REST-Services/
+
+
+
+demo.js*
+demo.html*
+
+*.idea

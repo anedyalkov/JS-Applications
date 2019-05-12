@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students List</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<fieldset>
+    <label for="firstName">First Name:</label><input type="text" id="firstName">
+    <label for="lastName">Last Name:</label><input type="text" id="lastName">
+    <label for="number">Faculty Number:</label><input type="text" id="number">
+    <label for="grade">Grade</label><input type="text" id="grade">
+    <label for="id">ID</label><input type="text" id="id">
+    <button id="create">Create New Student</button>
+</fieldset>
+<button id="load">Load Students</button>
+<table id="results">
+
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Faculty Number</th>
+        <th>Grade</th>
+    </tr>
+
+    <tbody id="body"></tbody>
+</table>
+<script src="solve.js"></script>
+<script>attachEvents()</script>
+</body>
+</html>

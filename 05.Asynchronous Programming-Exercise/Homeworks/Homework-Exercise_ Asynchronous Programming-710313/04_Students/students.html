@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="createStudent">
+    <hr>
+    <form id="newStudent">
+        <label for="ID">ID:</label><br>
+        <input type="number" id="ID" min="1"/><br>
+        <label for="FirstName">First Name:</label><br>
+        <input type="text" id="FirstName" /><br>
+        <label for="LastName">Last Name:</label><br>
+        <input type="text" id="LastName" /><br>
+        <label for="FacultyNumber">Faculty Number:</label><br>
+        <input type="number" id="FacultyNumber" min="1"/><br>
+        <label for="Grade">Grade:</label><br>
+        <input type="number" id="Grade" step="0.01" min="2" max="6"/><br><br>
+        <button type="submit" id="addStudent">Add Student</button>
+    </form>
+    <hr>
+</div>
+<table id="results">
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Faculty Number</th>
+        <th>Grade</th>
+    </tr>
+</table>
+
+
+<script src="solution.js"></script>
+<script>solve()</script>
+</body>
+</html>

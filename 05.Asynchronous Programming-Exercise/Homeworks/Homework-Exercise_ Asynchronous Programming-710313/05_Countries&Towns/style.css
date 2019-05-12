@@ -1,0 +1,84 @@
+#results {
+    background-color: #FFFFFF;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    text-align: center;
+}
+
+#results tr {
+    background-color: #AAAAAA;
+    padding: 5vh;
+    font-size: 1.5vw;
+}
+
+#results tr:nth-child(odd) {
+    background-color: #808080;
+}
+
+#results tr th {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 2vw;
+    padding: 1vw;
+}
+
+#results tr td {
+    padding: 1vw;
+    transition: font-size 0.2s;
+}
+
+
+.centerOut {
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+}
+
+.center {
+    width: 100%;
+    padding: 5px;
+}
+
+.boldName{
+    font-weight: bold;
+    font-size: 1.9vw;
+}
+
+ .table td {
+     text-align: center;
+     border-bottom: 1px solid #dce1e9;
+     border-right: 1px solid #dce1e9;
+     font-size: 20px;
+     line-height: 16px;
+     white-space:nowrap;
+ }
+
+.newCountry {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+#newCountryName{
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+#addCountry{
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+label{
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+input{
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+button{
+    margin: 5px;
+    font-weight: bold;
+    font-size: 1.2vw;
+}

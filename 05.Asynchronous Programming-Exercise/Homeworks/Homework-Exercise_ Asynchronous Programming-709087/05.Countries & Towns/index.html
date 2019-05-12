@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Countries & Towns</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="solution.js"></script>
+</head>
+<body>
+
+<fieldset>
+    <legend>Add Item</legend>
+    <fieldset>
+        <legend>Add Country</legend>
+        <label for="countryName">Country Name: </label>
+        <input type="text" id="countryName">
+        <button id="addCountry">Add Country</button>
+    </fieldset>
+    <fieldset>
+        <legend>Add Town</legend>
+        <button id="loadTownsCreation">Load Town Creation</button>
+        <section id="townCreation"></section>
+    </fieldset>
+
+</fieldset>
+
+<section>
+    <h3>Countries List</h3>
+    <button id="loadCountries">Load All Countries</button>
+    <ul id="countriesList"></ul>
+</section>
+
+<section>
+    <h3>Towns List</h3>
+    <button id="loadTowns">Load All Towns by Country</button>
+    <ul id="townsList"></ul>
+</section>
+
+<script>solve()</script>
+</body>
+</html>
